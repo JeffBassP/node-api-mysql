@@ -1,10 +1,13 @@
 const mysql = require('mysql');
 
+
 const connection = mysql.createConnection({
-    host : 'localhost',
-    user : 'root',
-    password : 'password',
-    database : 'portal_noticias'
-});
+            host : 'localhost',
+            user : 'root',
+            password : 'password',
+            database : 'portal_noticias'
+    });
+
+
 
 module.exports = connection;
